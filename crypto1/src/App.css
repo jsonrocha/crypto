@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  width: 800px;
+  font-size:20px;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -12,6 +21,23 @@
   height: 150px;
   padding: 20px;
   color: white;
+}
+
+
+table, {
+  border: 1px solid white;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+td {
+  color: white;
+  border: 1px solid white;
 }
 
 .App-title {

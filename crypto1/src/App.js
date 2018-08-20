@@ -5,9 +5,14 @@ import CurrentCrypto from './CurrentCrypto'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <section>
+      <h1>\\CRYPTO-WATCH//</h1>
+      <table className="App">
+      <tbody>
         <CurrentCrypto />
-      </div>
+      </tbody>
+      </table>
+      </section>
     );
   }
 }
